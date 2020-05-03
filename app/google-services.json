@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "318151995992",
+    "firebase_url": "https://disaster-risk-management-e463d.firebaseio.com",
+    "project_id": "disaster-risk-management-e463d",
+    "storage_bucket": "disaster-risk-management-e463d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318151995992:android:6fe6dc41780103b332102d",
+        "android_client_info": {
+          "package_name": "com.arul2810.disasterriskmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318151995992-g2haahaiv8fp7vhapmhd9ltc004vs8es.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arul2810.disasterriskmanagement",
+            "certificate_hash": "c5963adf6c2d6e92590b7d427948419b7b504813"
+          }
+        },
+        {
+          "client_id": "318151995992-n59inh4ht2tgelmvvhct1j57f7cma78t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc-KErtE8Jwt9VAIUQS2HD5sbaRHT4nFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318151995992-n59inh4ht2tgelmvvhct1j57f7cma78t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
