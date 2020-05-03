@@ -97,28 +97,17 @@
 
     <Button
         android:id="@+id/uploadproof"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="144dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="54dp"
         android:layout_marginBottom="159dp"
         android:text=" Upload Proof"
         app:layout_constraintBottom_toTopOf="@+id/textView32"
-        app:layout_constraintEnd_toStartOf="@+id/uploadview"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/purpose" />
-
-    <ImageView
-        android:id="@+id/uploadview"
-        android:layout_width="120dp"
-        android:layout_height="109dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="109dp"
-        android:layout_marginRight="109dp"
-        android:layout_marginBottom="195dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/uploadproof"
-        app:layout_constraintTop_toBottomOf="@+id/purpose" />
+        app:layout_constraintTop_toBottomOf="@+id/purpose"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/applyepass"
@@ -126,17 +115,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="159dp"
         android:layout_marginLeft="159dp"
-        android:layout_marginTop="53dp"
         android:layout_marginEnd="186dp"
         android:layout_marginRight="186dp"
-        android:layout_marginBottom="94dp"
+        android:layout_marginBottom="112dp"
         android:text="Apply for e-Pass"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.566"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uploadview"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView32"
@@ -153,5 +139,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/applyepass" />
+
+    <ImageView
+        android:id="@+id/uploadview"
+        android:layout_width="135dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginRight="119dp"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        app:layout_constraintBottom_toTopOf="@+id/applyepass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/uploadproof"
+        app:layout_constraintTop_toBottomOf="@+id/purpose"
+        app:layout_constraintVertical_bias="0.36"
+
+
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
